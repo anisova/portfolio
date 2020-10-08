@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Верстка сайтов. Наталья Анисова</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="../../css/normalize.css"> <!-- Подключаем normalize --> 
+  <link rel="stylesheet" href="../../css/main.css"> <!-- Подключаем CSS -->
+  <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+   
+</head>
+<body> 
+<div class="ham-menu">
+    <ul class="ham-menu__list">
+      <li class="ham-menu__item">
+        <a href="../../index.html" class="menu__link"> Главная</a>
+      </li>
+      <li class="ham-menu__item">
+        <a href="../../index.html#services" class="menu__link"> Услуги</a>
+      </li>
+      <li class="ham-menu__item">
+        <a href="../../index.html#portfolio" class="menu__link"> Портфолио</a>
+      </li>
+      <li class="ham-menu__item">
+        <a href="../../index.html#contacts" class="menu__link"> Контакты</a>
+      </li>
+    </ul>
+  </div>     
+  <header class="page-header " id="first">
+    <div class="page-header__group wrapper">              
+        <div class="header__mailto header__mailto-page"> 
+          <a href="mailto:anisova.dev@gmail.com" class="header__mail">email: anisova.dev@gmail.com
+    </a>
+    </div>  
+      <ul class="socials socials__noline socials_page">  
+    <li class="socials__item">
+      <a  href="mailto:anisova.dev@gmail.com" class="socials__link" >
+        <svg class="socials__pic" width="25"  viewBox="0 0 479.058 479.058">
+          <use xlink:href="../../img/sprite.svg#mail">
+          </use>
+        </svg>
+      </a>
+    </li>   
+   <li class="socials__item">
+      <a  href='https://t.me/natali_anisova' class="socials__link" >
+        <svg class="socials__pic" width="25" height="25" viewBox="0 0 189.473 189.473">
+          <use xlink:href="../../img/sprite.svg#telegram">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="socials__item">
+      <a href="https://vk.com/natali_anisova" class="socials__link">
+        <svg class="socials__pic" width="30" height="25" viewBox="0 0 24 19">
+          <use xlink:href="../../img/sprite.svg#vk">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="socials__item">
+      <a href="https://www.facebook.com/anisova.n" class="socials__link">
+        <svg class="socials__pic" width="30" height="25" viewBox="0 0 314.652 314.652">
+          <use xlink:href="../../img/sprite.svg#f">
+          </use>
+        </svg>
+      </a>
+    </li>
+  </ul> 
+    <nav class="header__menu header__menu_page">
+      <a href="../../index.html" class="header__link"> Главная</a>
+      <a href="../../index.html#services" class="header__link"> Услуги</a>
+      <a href="../../index.html#portfolio" class="header__link"> Портфолио</a>
+      <a href="../../index.html#contacts" class="header__link"> Контакты</a>
+    </nav>
+    <div class="hamburger">
+      <div class="hamburger__link">
+      </div>
+      </div>
+
+  </div>
+<div class="wrapper">
+  <h2 class="h1 wrapper"> Интернет-магазин<br> Доставка суши</h2>
+
+<a href="./site/index.html" class="btn">
+  <p class='btn__text'>
+    Посмотреть сайт
+  </p>
+  </a>
+</div>
+  </header>
+ <section class="page-case wrapper">
+<div class="page-case__task">
+  <h3 class="h2 ">Задача</h3>
+  <p class="page-case__text">
+    Сделать адаптивную верстку интернет-магазина доставки суши по макету PSD.
+  </p>
+  <p class="page-case__text">
+    Срок выполнения работ - 10 дней. 
+  </p>
+  <h2 class="h3"> Что сделано</h2>
+  <div class="page-case__group">
+    <div class="page-case__done-group">
+      <svg width="25" height="25">
+        <use xlink:href="../../img/sprite.svg#square">
+        </use>
+      </svg> 
+      <p class="page-case__done"> Выполнена адаптивная, кроссбраузерная  html/css/js верстка. <br><br>Страницы Избранное, Корзина, Меню появляются во всплывающих окнах, реализованы механизмы работы страниц - добавление продукта, удаление, расчет стоимости заказа.</p>
+    </div>
+    <div class="page-case__done-group">
+      <svg width="25" height="25">
+        <use xlink:href="../../img/sprite.svg#square">
+        </use>
+      </svg> 
+      <p class="page-case__done"> Проведено тестирование для различных разрешений (десктоп, планшет, смартфон) и для всех современных браузеров.</p>
+    </div>
+  </div> 
+</div>
+
+<div class="images">
+  <img class = ' images__item_desktop' src="./img/001.png" alt="">
+  <img class = 'images__item_tablet' src="./img/002.png" alt="">
+  <img class = 'images__item_mobile' src="./img/003.png" alt="">
+</div>
+</section> 
+
+<section class="tech wrapper">
+<h2 class="h2">Какие технологии исползованы</h2>
+
+<div class="page-case__group">
+  <div class="tech__group">
+    <h3>HTML/CSS/Javascript</h3>
+    <div class="tech__desc">
+    <svg width="25" height="25">
+      <use xlink:href="../../img/sprite.svg#square">
+      </use>
+    </svg> 
+    <p class="tech__done"> Сайт написан HTML/CSS без использования конструкторов и фреймворков. Для ускорения работы использовались технологии gulp/scss. <br><br>
+      <span> На языке Javascript реализовано добавление товаров в Избранное и Корзину, расчет стоимости заказа, появление модальных окон, меню гамбургер.</span></p>
+  
+  
+  </div>
+</div> 
+  <div class="page-case__image">
+  <img src="./img/006.png" alt="" class="page-case__pic">
+</div>
+</div>
+
+<div class="page-case__group">
+  <div class="tech__group">
+    <h3>Плагин Tiny-slider</h3>
+    <div class="tech__desc">
+    <svg width="25" height="25">
+      <use xlink:href="../../img/sprite.svg#square">
+      </use>
+    </svg> 
+    <p class="tech__done"> Для реализации слайдера был подключен и стилизован плагин Tiny-slider.</p>
+  </div>
+</div> 
+  <div class="page-case__image">
+  <img src="./img/004.png" alt="" class="page-case__pic">
+</div>
+</div>
+
+
+<div>
+  <img src="./img/07.png" alt="" class="page-case__pic image-100">
+</div>
+<div class="images__row">  
+<div>
+  <img src="./img/08.png" alt="" class="page-case__pic page-case__pic_margin">
+</div>
+<div>
+  <img src="./img/08_m.png" alt="" class="page-case__pic">
+</div>
+</div>
+<div class="images__row">  
+  <div class="page-case__img">
+    <img src="./img/09.png" alt="" class="page-case__pic page-case__pic_margin">
+  </div>
+  <div class="page-case__img">
+    <img src="./img/10.png" alt="" class="page-case__pic page-case__pic_margin">
+  </div>
+  <div class="page-case__img">
+    <img src="./img/11.png" alt="" class="page-case__pic">
+  </div>
+  </div>
+
+  <a href="./site/index.html" class="btn btn_case btn_page"> Посмотреть сайт</a>
+ 
+
+</section> 
+
+<section class="contacts wrapper" id="contacts">
+  <h2 class="h2">
+    Контакты
+  </h2>
+  <form action="post" class="form" enctype="multipart/form-data" >
+    <div class="form__left">
+      <p class="form__text">Напишите мне, или свяжитесь любым удобным для Вас способом.
+      </p>
+      <ul class="socials socials_form">  
+        <li class="socials__item">
+          <a  href="mailto:anisova.dev@gmail.com" class="socials__link form__link" >
+            <svg class="socials__pic" width="25"  viewBox="0 0 479.058 479.058">
+              <use xlink:href="../../img/sprite.svg#mail">
+              </use>
+            </svg>
+            <p class="socials__text">Email</p>
+          </a>
+        </li>   
+       <li class="socials__item">
+          <a  href='https://t.me/natali_anisova' class="socials__link form__link" >
+            <svg class="socials__pic" width="25" height="25" viewBox="0 0 189.473 189.473">
+              <use xlink:href="../../img/sprite.svg#telegram">
+              </use>
+              
+            </svg>
+            <p class="socials__text">Telegram</p>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://vk.com/natali_anisova" class="socials__link form__link">
+            <svg class="socials__pic" width="30" height="25" viewBox="0 0 24 19">
+              <use xlink:href="../../img/sprite.svg#vk">
+              </use>
+            </svg>
+            <p class="socials__text">Вконтакте</p>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="https://www.facebook.com/anisova.n" class="socials__link form__link">
+            <svg class="socials__pic" width="30" height="25" viewBox="0 0 314.652 314.652">
+              <use xlink:href="../../img/sprite.svg#f">
+              </use>
+            </svg>
+            <p class="socials__text">Facebook</p>
+          </a>
+        </li>
+      </ul>
+  
+    </div>
+    <div class="form__right">
+    <div class="form__row">
+      
+      <input  class="form__field" type="text" name="name" id="name" placeholder="Ваше имя">    
+      <input class="form__field" type="email" name="email" id="email" placeholder="Ваш email">
+    </div>
+      <textarea class="form__message" name="message" placeholder="Ваше сообщение"></textarea>
+      <label for="file" class="form__filelabel">
+      
+        <svg width="25" height="24" viewBox="0 0 25 24">
+          <path d="M24.2837 11.4963C23.8858 11.4963 23.5675 11.8123 23.5675 12.2073V18.6749C23.5675 20.434 22.1244 21.8613 20.3576 21.8613H4.6424C2.87033 21.8613 1.43251 20.4287 1.43251 18.6749V12.102C1.43251 11.707 1.11418 11.3909 0.716256 11.3909C0.318336 11.3909 0 11.707 0 12.102V18.6749C0 21.2187 2.0851 23.2833 4.6424 23.2833H20.3576C22.9202 23.2833 25 21.2135 25 18.6749V12.2073C25 11.8176 24.6817 11.4963 24.2837 11.4963Z" fill="url(#paint0_linear)"/>
+          <path d="M8.45187 6.01884L11.7838 2.71131V17.137C11.7838 17.532 12.1021 17.848 12.5 17.848C12.898 17.848 13.2163 17.532 13.2163 17.137V2.71131L16.5482 6.01884C16.6862 6.15578 16.8719 6.22951 17.0523 6.22951C17.2379 6.22951 17.4183 6.16104 17.5563 6.01884C17.8375 5.7397 17.8375 5.29203 17.5563 5.01289L13.0041 0.493996C12.8714 0.362327 12.6857 0.283325 12.5 0.283325C12.309 0.283325 12.1287 0.35706 11.996 0.493996L7.44381 5.01289C7.16261 5.29203 7.16261 5.7397 7.44381 6.01884C7.7197 6.29271 8.17598 6.29271 8.45187 6.01884Z" fill="url(#paint1_linear)"/>
+          <defs>
+          <linearGradient id="paint0_linear" x1="25" y1="17.3371" x2="-6.98492e-07" y2="17.3371" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#934CC4"/>
+          <stop offset="1" stop-color="#5D78ED"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear" x1="17.7672" y1="9.06567" x2="7.23291" y2="9.06567" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#934CC4"/>
+          <stop offset="1" stop-color="#5D78ED"/>
+          </linearGradient>
+          </defs>
+          
+          </svg>
+        <span class="attach"> Прикрепить файлы</span>
+      </label>
+      <input  class="form__file" type="file" name="file[]" id="file" multiple>
+      <div class="added-files">      
+      </div>
+      <button type="submit" class="btn btn_form">Отправить
+      </button>
+    </div>
+  </form>
+  </section>
+
+
+<footer class="footer">
+  <div class="footer__group wrapper">
+  <p class="footer__name">
+Наталья Анисова
+  </p>
+  <ul class="socials socials__footer">  
+    <li class="socials__item">
+      <a  href="mailto:anisova.dev@gmail.com" class="socials__link" >
+        <svg class="socials__pic" width="25"  viewBox="0 0 479.058 479.058">
+          <use xlink:href="../../img/sprite.svg#mail">
+          </use>
+        </svg>
+      </a>
+    </li>   
+   <li class="socials__item">
+      <a  href='https://t.me/natali_anisova' class="socials__link" >
+        <svg class="socials__pic" width="25" height="25" viewBox="0 0 189.473 189.473">
+          <use xlink:href="../../img/sprite.svg#telegram">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="socials__item">
+      <a href="https://vk.com/natali_anisova" class="socials__link">
+        <svg class="socials__pic" width="30" height="25" viewBox="0 0 24 19">
+          <use xlink:href="../../img/sprite.svg#vk">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="socials__item">
+      <a href="https://www.facebook.com/anisova.n" class="socials__link">
+        <svg class="socials__pic" width="30" height="25" viewBox="0 0 314.652 314.652">
+          <use xlink:href="../../img/sprite.svg#f">
+          </use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+  <p class="footer__copy"> &copy; 2020 www.anisova.ru<br> Все права защищены</p>
+
+  </div>
+</footer>
+
+<a href="#first" class="btn-up scrollto hidden">
+  <svg class="up" width="20"  viewBox="0 0 240.811 240.811">
+    <use xlink:href="../../img/sprite.svg#arrow">
+    </use>
+  </svg>
+</a>
+
+<div class='modal'>
+  <div class="modal__container">
+    <a href="#">
+      <img src="../../img/cross.svg" width="20" height="20"  class="close-success" alt="">
+    </a>
+    <p>Спасибо!<br> Ваше сообщение отправлено. <br>Я свяжусь с Вами в ближайшее время.</p>
+  </div>
+</div>
+  <script src="../../js/main.js">
+  </script>  
+  <script src="../../js/hamburger.js">
+  </script>
+  <script src="../../js/form.js">
+  </script> 
+</body>
