@@ -17,13 +17,14 @@ function scrollTo() {
 //функция для отработки действий при скролле
 function scrollAсtion() {
   window.addEventListener("scroll", () => {
-    elemAnimate(".services__right", "animate");
-    elemAnimate(".service", "animate");
-    elemAnimate(".services__stage", "animate");
+    if (document.documentElement.clientWidth > 1000) {
+      elemAnimate(".services__right", "animate");
+      elemAnimate(".service", "animate");
+      elemAnimate(".services__stage", "animate");
+    }
     elemAnimate(".case__back", "caseAnimation");
     elemAnimate(".case__link", "titleAnimation");
     elemAnimate(".case__img", "imgAnimation");
-
     btnUp();
   });
 }
