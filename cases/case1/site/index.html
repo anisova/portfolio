@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Burger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css"> <!-- Подключаем normalize -->
+  <link rel="stylesheet" href="css/main.css"> <!-- Подключаем CSS -->
+  
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="section first" id="first">
+      <div class="container first__wrap">
+        <div class="header">
+          <div class="logo">
+            <img src="img/logo.png" alt="burger">
+          </div>
+          <div class="header__nav">
+            <nav class="header__menu">
+              <ul class="menu">
+                <li class="menu__item"> <a href="#best" class="menu__link"> О нас</a></li>
+                <li class="menu__item"> <a href="#slider" class="menu__link"> Бургеры</a></li>
+                <li class="menu__item"> <a href="#team" class="menu__link"> Команда</a></li>                
+                <li class="menu__item"> <a href="#reviews" class="menu__link"> Отзывы</a></li>
+                <li class="menu__item"> <a href="#delivery" class="menu__link"> Доставка</a></li>
+                <li class="menu__item"> <a href="#map" class="menu__link"> Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="header__btn">
+              <a href="#delivery" class="btn">Заказать
+              </a>
+            </div>
+            <div class="hamburger">
+              <div class="hamburger__link"></div>
+            </div>
+          </div>
+        </div>
+        <div class="offer">
+          <div class="offer__image">
+            <img class="offer__img" src="img/burger1.png" alt="burger">
+          </div>
+          <div class="offer__text">
+            <h2 class="h2 h2__first">Мы делаем</h2>
+            <p>натуральные бургеры</p>
+          </div>
+        </div>
+        <div class="arrow">
+          <a href="#best"> <img src="img/arrow-scroll.png" alt="arrow"></a>
+        </div>
+      </div>
+      <div class="ham-menu">
+        <ul class="ham-menu__list">
+          <li class="ham-menu__item">
+            <a href="#first" class="menu__link menu__link_ham"> О нас </a>
+          </li>
+          <li class="ham-menu__item">
+            <a href="#best" class="menu__link menu__link_ham"> Бургеры </a>
+          </li>
+          <li class="ham-menu__item">
+            <a href="#team" class="menu__link menu__link_ham"> Команда </a>
+          </li>          
+          <li class="ham-menu__item">
+            <a href="#reviews" class="menu__link menu__link_ham"> Отзывы </a>
+          </li>
+          <li class="ham-menu__item">
+            <a href="#delivery" class="menu__link menu__link_ham"> Доставка </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <section class="section best" id="best">
+      <div class="container container_flex">
+        <h2 class="h2 h2_gray">Мы лучшие</h2>
+        <div class="best__content">
+          <div class="best__item">
+            <div>
+              <img class="best__img" src="img/2/meat.png" alt="meat">
+            </div>
+            <div class="best__desc">
+              <h3 class="h3 h3_best">
+                100% свежее мясо
+              </h3>
+              <div class="best__text">
+                <p>Мясо для наших бургеров мы получаем у проверенного сертифицированного поставщика. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="best__item">
+            <div>
+              <img class="best__img" src="img/2/hand.png" alt="meat">
+            </div>
+            <div class="best__desc">
+              <h3 class="h3 h3_best">
+                Ручная сборка
+              </h3>
+              <div class="best__text">
+                <p>Соберите свой бургер, добавьте ингридиенты по вкусу, и мы приготовим его лично для Вас</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="best__item">
+            <div>
+              <img class="best__img" src="img/2/natural.png" alt="meat">
+            </div>
+            <div class="best__desc">
+              <h3 class="h3 h3_best">
+                Натуральные ингредиенты
+              </h3>
+              <div class="best__text">
+                <p>Настоящее мяса, пышные булочки, полезные овощи и зелень, приправленные замечательными соусами.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section slider" id="slider">
+      <div class="container container_flex container_slider">
+        <a href="#" class="slider__next">
+          <img class="slider__scroll" src="img/slider/right.png" alt="arrow">
+        </a>
+        <a href="" class="slider__prev">
+          <img class="slider__scroll" src="img/slider/left.png" alt="arrow">
+        </a>
+        <div class="slider__wrapper">
+          <ul class="slider__list">
+            <li class=" slider__item">
+              <div class="slider__reciept">
+                <div>
+                  <img src="img/slider/burger.png" alt="burger">
+                </div>
+                <p>состав</p>
+              </div>
+              <div class="slider__weight">
+                <img src="img/slider/kkal.png" alt="burger">
+                <p class="slider__weight-text">1200</p>
+                <p class="slider__weight-kkal">kkal</p>
+              </div>
+              <div class="slider__image">
+                <img class="slider__img" src="img/slider/1.png" alt="burger">
+              </div>
+              <div class="slider__text">
+                <h2 class="h2 h2_white slider__tittle">Dark BEEF Burger</h2>
+                <div class="slider__desc">
+                  <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего
+                    сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль.
+                  </p>
+                </div>
+                <div class="slider__price">
+                  <p class="slider__summ">500</p>
+                  <p class="slider__ru">рублей</p>
+                  <a href="#delivery" class="btn btn_slider">заказать</a>
+                </div>
+              </div>
+            </li>
+            <li class=" slider__item">
+              <div class="slider__reciept">
+                <div>
+                  <img src="img/slider/burger.png" alt="burger">
+                </div>
+                <p>состав</p>
+              </div>
+              <div class="slider__weight">
+                <img src="img/slider/kkal.png" alt="burger">
+                <p class="slider__weight-text">1200</p>
+                <p class="slider__weight-kkal">kkal</p>
+              </div>
+              <div class="slider__image">
+                <img class="slider__img" src="img/slider/2.png" alt="burger">
+              </div>
+              <div class="slider__text">
+                <h2 class="h2 h2_white slider__tittle">Chicken Burger</h2>
+                <div class="slider__desc">
+                  <p>Булка, курица, сыр, салат латук, свежие помидоры, маринованные огурцы, коктейльный соус.
+                  </p>
+                </div>
+                <div class="slider__price">
+                  <p class="slider__summ">450</p>
+                  <p class="slider__ru">рублей</p>
+                  <a href="#delivery" class="btn btn_slider">заказать</a>
+                </div>
+              </div>
+            </li>
+            <li class=" slider__item">
+              <div class="slider__reciept">
+                <div>
+                  <img src="img/slider/burger.png" alt="burger">
+                </div>
+                <p>состав</p>
+              </div>
+              <div class="slider__weight">
+                <img src="img/slider/kkal.png" alt="burger">
+                <p class="slider__weight-text">1200</p>
+                <p class="slider__weight-kkal">kkal</p>
+              </div>
+              <div class="slider__image">
+                <img class="slider__img" src="img/slider/3.png" alt="burger">
+              </div>
+              <div class="slider__text">
+                <h2 class="h2 h2_white slider__tittle">Fresh Burger</h2>
+                <div class="slider__desc">
+                  <p>Булка, куриная котлета, сыр чеддер, салат латук, свежие помидоры, маринованные огурцы, коктейльный соус, сырный соус.
+                  </p>
+                </div>
+                <div class="slider__price">
+                  <p class="slider__summ">500</p>
+                  <p class="slider__ru">рублей</p>
+                  <a href="#delivery" class="btn btn_slider">заказать</a>
+                </div>
+              </div>
+            </li>
+            <li class=" slider__item">
+              <div class="slider__reciept">
+                <div>
+                  <img src="img/slider/burger.png" alt="burger">
+                </div>
+                <p>состав</p>
+              </div>
+              <div class="slider__weight">
+                <img src="img/slider/kkal.png" alt="burger">
+                <p class="slider__weight-text">1200</p>
+                <p class="slider__weight-kkal">kkal</p>
+              </div>
+              <div class="slider__image">
+                <img class="slider__img" src="img/slider/4.png" alt="burger">
+              </div>
+              <div class="slider__text">
+                <h2 class="h2 h2_white slider__tittle">Dark BEEF Burger</h2>
+                <div class="slider__desc">
+                  <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего
+                    сыра
+                    эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса
+                    чураско.
+                  </p>
+                </div>
+                <div class="slider__price">
+                  <p class="slider__summ">500</p>
+                  <p class="slider__ru">рублей</p>
+                  <a href="#delivery" class="btn btn_slider">заказать</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+    <section class="section team" id="team">
+      <div class="team__right">
+        <div class="team__container">
+          <h2 class="h2 h2__team"> Команда</h2>
+          <div class="accordeon">
+            <ul class="accordeon__list">
+              <li class="accordeon__item">
+                <div class="accordeon__name">
+                  <svg class="triangle" width="12" height="8" xmlns="http://www.w3.org/2000/xhtml">
+                    <polygon points="0,0 12,0 6,8" />
+                  </svg>
+                  <h4 class="h4 accordeon__h4">Николай Макаров</h4>
+                </div>
+                <div class="accordeon__person ">
+                  <div class="accordeon__pic">
+                    <img class="accordeon__photo" src="img/team/avatar1.png" alt="">
+                  </div>
+                  <div class="accordeon__desc">
+                    <h5 class="h5">Оператор</h5>
+                    <div class="accordeon__text">
+                      <p> С радостью поможет подобрать идеальный бургер и оформить заказ. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="accordeon__item">
+                <div class="accordeon__name">
+                  <svg class="triangle" width="12" height="8" xmlns="http://www.w3.org/2000/xhtml">
+                    <polygon points="0,0 12,0 6,8" />
+                  </svg>
+                  <h4 class="h4 accordeon__h4">Евгений Нестеров</h4>
+                </div>
+                <div class="accordeon__person">
+                  <div class="accordeon__pic">
+                    <img class="accordeon__photo" src="img/team/avatar2.png" alt="">
+                  </div>
+                  <div class="accordeon__desc">
+                    <h5 class="h5">Повар</h5>
+                    <div class="accordeon__text">
+                      <p> С радостью приготовит отличный бургер. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="accordeon__item">
+                <div class="accordeon__name">
+                  <svg class="triangle" width="12" height="8" xmlns="http://www.w3.org/2000/xhtml">
+                    <polygon points="0,0 12,0 6,8" />
+                  </svg>
+                  <h4 class="h4 accordeon__h4">Илья Дементьев</h4>
+                </div>
+                <div class="accordeon__person ">
+                  <div class="accordeon__pic">
+                    <img class="accordeon__photo" src="img/team/avatar3.png" alt="">
+                  </div>
+                  <div class="accordeon__desc">
+                    <h5 class="h5">Оператор</h5>
+                    <div class="accordeon__text">
+                      <p> С радостью поможет подобрать идеальный бургер и оформить заказ. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="accordeon__item">
+                <div class="accordeon__name">
+                  <svg class="triangle" width="12" height="8" xmlns="http://www.w3.org/2000/xhtml">
+                    <polygon points="0,0 12,0 6,8" />
+                  </svg>
+                  <h4 class="h4 accordeon__h4">Алексей Богданов</h4>
+                </div>
+                <div class="accordeon__person ">
+                  <div class="accordeon__pic">
+                    <img class="accordeon__photo" src="img/team/avatar4.png" alt="">
+                  </div>
+                  <div class="accordeon__desc">
+                    <h5 class="h5">Курьер</h5>
+                    <div class="accordeon__text">
+                      <p> Доставит Вам вкусные, горячие бургеры. </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section s-menu">
+      <h2 class="h2 h2__s-menu">Меню </h2>
+
+      <ul class="vert-accord">
+        <li class="vert-accord__item">
+          <div class="vert-accord__link" style="background:url('img/menu/bg1.jpg') no-repeat center top/cover;">
+            <div class="vert-accord__tittle">Для мясоедов
+            </div>
+          </div>
+          <div class="vert-accord__text">
+            <p>Приготовьтесь ко встрече с самым незабываемым бургером - громадным, сочным, аппетитным, из натурального мяса. Такого Вы еще точно не пробовали.</p>
+            <br>
+            <p>              Так же не составит никакого труда доставить гамбургер в любой район города. Достаточно просто воспользоваться меню доставки.
+              <br> Заказывайте!
+            </p>
+          </div>
+        </li>
+        <li class="vert-accord__item">
+          <div class="vert-accord__link" style="background:url('img/menu/bg2.jpg')  no-repeat center top/cover;">
+            <div class="vert-accord__tittle">Вегетарианское
+            </div>
+          </div>
+          <div class="vert-accord__text">
+            <p>Всем тем, кто является приверженцем вегетарианства, мы можем предложить вегетарианский гамбургер. Свежие овощи, великолепный молодой итальянский рассольный сыр, оливки в сочетании с грибным миксом и томатным соусом придают ему незабываемый вкус!
+             </p>
+             <br>
+              <p>
+              Так же не составит никакого труда доставить гамбургер в любой район города. Достаточно просто воспользоваться меню доставки. Заказывайте!
+            </p>            
+            
+          </div>
+        </li>
+        <li class="vert-accord__item">
+          <div class="vert-accord__link" style="background:url('img/menu/bg3.jpg') no-repeat center top/cover;">
+            <div class="vert-accord__tittle">Диетическое
+            </div>
+          </div>
+          <div class="vert-accord__text">
+            <p>Всем тем, кто является приверженцем диетического питания, мы можем предложить диетический гамбургер. Булочка из зернового хлеба, мясо индейки или курица и свежие овощи, которые придают ему незабываемый вкус!
+            </p>
+            <br>
+             <p>
+             Так же не составит никакого труда доставить гамбургер в любой район города. Достаточно просто воспользоваться меню доставки. Заказывайте!
+           </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section reviews" id="reviews">
+      <ul class="reviews__list">
+        <li class="review" style="background-image: url('img/reviews/1.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Мария Кузнецова</h4>
+              <div class="review__text">
+                <p> Вкусные и сочные бургеры. Нам очень понравилось, после этих бургеров, по крайней мере, нет тяжести, как после всем известным сетей фастфуда.</p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/2.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Константин Сергеев</h4>
+              <div class="review__text">
+                <p> Бургер неплохой, сочный, мягкая булка, котлета приличной толщины. Учитывая вполне демократические цены, бургерная выглядит весьма достойно.
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/3.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Елена Борисова</h4>
+              <div class="review__text">
+                <p> Бургеры на разный вкус. Есть даже с баклажаном, что особенно приятно. 
+                </p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/4.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Наталья Савина</h4>
+              <div class="review__text">
+                <p>  Бургер у меня был волшебный, такого вкусного не ела еще. Котлета сочная, оригинальный соус, черная булочка. </p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/5.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Александра Громова</h4>
+              <div class="review__text">
+                <p> Бургер очень и очень хорош. Сочная котлета правильной прожарки, вкусная булочка, остальные ингредиенты к месту и вкус мяса дополняют, а не перебивают.
+
+                </p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/6.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Андрей Ермаков</h4>
+              <div class="review__text">
+                <p> Бургер у меня был волшебный, такого вкусного не ела еще. Котлета сочная, оригинальный соус, черная булочка.</p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/7.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Иван Титов </h4>
+              <div class="review__text">
+                <p> Мысли все о них и о них, о них и о них. Никогда не думал, что булочки могут быть такими мягкими,
+                  котлетка такой сочной, а сыр таким расплавленным.</p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+        <li class="review" style="background-image: url('img/reviews/8.png')">
+          <div class="review__hover-block">
+            <div class="review__hover-content">
+              <h4 class="h4 h4_review">Анна Третьякова</h4>
+              <div class="review__text">
+                <p> Бургер очень и очень хорош. Сочная котлета правильной прожарки, вкусная булочка, остальные ингредиенты к месту и вкус мяса дополняют, а не перебивают.</p>
+              </div>
+              <a href="#" class="btn btn_gray btn_overlay">Подробнее</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section delivery" id="delivery">
+      <div class="container container_flex">
+        <h2 class="h2 delivery__h2">Закажите доставку</h2>
+        <form class="form" action="" autocomplete="on">
+          <div class="form__left">
+            <div class="form__row">
+              <label class="form__input">
+                <div class="form__input-tittle">Имя</div>
+                <input class="form__field form__field_name" type="text" name="" id="" placeholder="Ваше имя">
+              </label>
+              <label class="form__input">
+                <div class="form__input-tittle ">Телефон</div>
+                <input class="form__field form__field_name" type="text" name="" id="" placeholder="Ваш телефон">
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__input">
+                <div class="form__input-tittle ">Улица</div>
+                <input class="form__field form__field_street" type="text" name="" id="">
+              </label>
+            </div>
+            <div class="form__row ">
+              <label class="form__input">
+                <div class="form__input-tittle">Дом</div>
+                <input class="form__field" type="text" name="" id="">
+              </label>
+              <label class="form__input">
+                <div class="form__input-tittle ">Корпус</div>
+                <input class="form__field" type="text" name="" id="">
+              </label>
+              <label class="form__input">
+                <div class="form__input-tittle ">Этаж</div>
+                <input class="form__field" type="text" name="" id="">
+              </label>
+              <label class="form__input">
+                <div class="form__input-tittle">Квартира</div>
+                <input class="form__field" type="text" name="" id="">
+              </label>
+            </div>
+          </div>
+          <div class="form__right">
+            <div class="form__row">
+              <div class="form__input-tittle">Комментарий</div>
+              <textarea class="form__field form__field_comment" name="" id="" placeholder="Оставьте свой комментарий"></textarea>
+            </div>
+            <div class="form__row form__row_start">
+              <label class="form__input form__input_flex">
+                <input class="input-true" type="radio" name="radio" id="" checked>
+                <div class="form__radio-visible"></div>
+                <div class="form__input-tittle ">Потребуется сдача</div>
+              </label>
+              <label class="form__input form__input_flex">
+                <input class="input-true" type="radio" name="radio" id="">
+                <div class="form__radio-visible"></div>
+                <div class="form__input-tittle ">Оплата по карте</div>
+              </label>
+            </div>
+            <div class="form_row form__row_start">
+              <label class="form__input form__input_flex">
+                <input class="input-check" type="checkbox" name="checkbox" id="">
+                <div class="form__check-visible"></div>
+                <div class="form__input-tittle ">Не перезванивать</div>
+              </label>
+            </div>
+            <div class="form__row form__row_start">
+              <input class="btn order" id="btn_send" type="submit" name="submit_btn" value="Заказать">
+              <input class="form__clear" id="btn_send" type="reset" name="reset_btn" value="Очистить">
+
+            </div>
+          </div>
+      </div>
+      </form>
+    </section>
+    <section class="section section_map">
+      <div class="map" id="map">
+      </div>
+     
+    </section>
+    <footer class="footer">
+      <div class="container footer__contacts">
+        <p class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</p>
+        <p class="footer__phone">+7 (812) 365-13-47</p>
+      </div>
+    </footer>
+   
+  </div>
+  <script type="template" class='OverlayTemplate'>
+      <div class="overlay"> 
+          <div class="overlay__container"> 
+          <div class="overlay__tittle h4 h4_review"></div>
+          <p class="overlay__content review__text"></p>
+          <div class="close">x</div>
+        </div>
+      </div>
+  </script>  
+  <script src="js/main.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/map.js"></script>
+  
+</body>
