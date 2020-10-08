@@ -439,6 +439,9 @@ a {
           flex-wrap: wrap;
   position: relative;
   margin: 5em 0; }
+  @media (max-width: 768px) {
+    .services__stages {
+      margin-top: 1em; } }
 
 .services__stage {
   width: 20%;
