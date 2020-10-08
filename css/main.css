@@ -466,7 +466,10 @@ a {
   @media (max-width: 768px) {
     .services__stage {
       width: 48%;
-      margin-bottom: 5vh; } }
+      margin-bottom: 5vh;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
   @media (max-width: 480px) {
     .services__stage {
       width: 100%; } }
@@ -575,7 +578,10 @@ a {
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center;
-      text-align: center; } }
+      text-align: center;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
 
 .services__list {
   margin-top: 2em; }
