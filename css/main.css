@@ -107,7 +107,7 @@ a {
   font-family: 'open sans', san-serif;
   font-weight: 600;
   font-size: 28px;
-  margin: 4em 0 1em 0;
+  margin: 10vmin 0 7vmin 0;
   color: black; }
   @media (max-width: 768px) {
     .h3 {
@@ -578,9 +578,7 @@ a {
       text-align: center; } }
 
 .services__list {
-  -webkit-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-          transform: translateY(50px); }
+  margin-top: 2em; }
 
 .service {
   width: 21%;
@@ -595,7 +593,10 @@ a {
   @media (max-width: 768px) {
     .service {
       width: 45%;
-      margin-top: 2em; } }
+      margin-top: 2em;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
   @media (max-width: 480px) {
     .service {
       width: 90%; } }
